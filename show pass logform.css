@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.main-box{
+    margin-top: 2rem;
+    height: 500px;
+    width: 400px;
+    border: 3px solid red;
+    border-radius: 20px;
+    background: lightgreen;
+}
+.main-box h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.main-box label{
+    display: flex;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.main-box input{
+    width: 100%;
+    background: #f4f3f367;
+    border-radius: 4px;
+    padding: 10px 5px;
+    margin-top: 5px;
+    font-weight: 100%;    
+}
+.main-box input::placeholder{
+    color: blue;
+}
+.pass{
+    position: relative;
+}
+.pass i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    right: 20px;
+}
+#show-hide{
+    font-size: 1rem;
+}
+button{
+    margin-top: 1rem;
+    width: 30%;
+    height: 30px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+button:hover{
+    transform: translate(-0.25rem,-0.25rem);
+    box-shadow: 0.25rem 0.25rem black;
+}
+
+hr{
+    height: 1px;
+    width: 90%;
+    margin: 10px auto;
+    outline: navajowhite;
+    margin-bottom: 1rem;
+}
+.social-box h3{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.social a{
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background: rgba(255, 255, 255, 0.27);
+    text-align: center;
+    margin: 0 14px;
+    cursor: pointer;   
+}
+.social a:hover{
+    background: rgba(247, 247, 247, 0.511);
+}
+.social a{
+    text-decoration: none;
+}
+.go{
+    color: #e60000;
+}
+.fb{
+    color: blue;
+}
+.social i{
+    margin-right: 4px;
+}
